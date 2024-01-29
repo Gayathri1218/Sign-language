@@ -1,5 +1,5 @@
 import streamlit as st
-import imagerec
+import imgrec
 import pandas as pd
 import random
 import streamlit.components.v1 as components
