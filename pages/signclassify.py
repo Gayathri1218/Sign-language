@@ -26,7 +26,7 @@ uploaded_file = st.file_uploader("Choose a File", type=['jpg','png','jpeg'])
 
 if uploaded_file!=None:
     st.image(uploaded_file)
-x = st.button("Predict chei")
+x = st.button("Predict")
 if x:
     with st.spinner("Thinking..."):
         def imagerecognise(uploadedfile,modelpath,labelpath):
